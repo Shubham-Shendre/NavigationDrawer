@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/question_paper"
+        android:title="Question paper"
+        android:icon="@drawable/ic_image"></item>
+    <item
+        android:id="@+id/answer"
+        android:title="Answer"
+        android:icon="@drawable/ic_image"></item>
+    <item
+        android:id="@+id/Download"
+        android:title="Download"
+        android:icon="@drawable/ic_image"></item>
+    <item
+        android:id="@+id/subscribe"
+        android:title="Subscribed"
+        android:icon="@drawable/ic_image"></item>
+</group>
+
+    <item android:title="others">
+    <menu>
+        <item
+            android:id="@+id/events"
+            android:title="Events"
+            android:icon="@drawable/ic_image"></item>
+        <item
+            android:id="@+id/aboutus"
+            android:title="About us"
+            android:icon="@drawable/ic_image"></item>
+    </menu>
+    </item>
+
+
+</menu>
